@@ -13,7 +13,7 @@ for (let i = 0; i < 4; i++) {
 //   - Which part of the example loop do you need to change to do this?
 console.log('count from 0 to 5');
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i <= 5; i++) {
   // We need to change the range of i in the for loop. So, instead of i < 4;, we need to use i < 6; (because there are six indicies total that need to be logged).
   console.log(i);
 } // DONE
